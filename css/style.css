@@ -11,7 +11,19 @@ header .box {
     color:#ffffff;
 }
 
-header .col-xs-12:last-child .box {
+header .col-xs-12:last-child .box,
+.green {
     background-color: #1abc9c;
     color:#ffffff;
+}
+
+
+
+footer .container.bottom {
+    background-color: #3a546d;
+}
+
+
+footer .container.copy {
+    background-color: #2c3e50;
 }
