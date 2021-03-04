@@ -17,6 +17,9 @@ header .col-xs-12:last-child .box,
     color:#ffffff;
 }
 
+header .barra-top {
+    height: 73px;
+}
 
 
 footer .container.bottom{
