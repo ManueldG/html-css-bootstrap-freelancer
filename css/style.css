@@ -18,6 +18,10 @@ img {
     height: 70px;
 }
 
+.container {
+    width: 100%;
+}
+
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #1abc9c;
     background-color: transparent;
