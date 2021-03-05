@@ -18,6 +18,23 @@ img {
     height: 70px;
 }
 
+.divider-custom-line {
+
+    background-color: white;
+    height: 2px;
+    border-radius: 25%;
+}
+
+.divider-custom-icon svg{
+    padding-top: 20px;
+    height:37px;
+}
+
+.divider-custom-icon {
+    display: inline-block;
+    text-align: center;
+}
+
 .container {
     width: 100%;
 }
