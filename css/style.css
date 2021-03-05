@@ -19,14 +19,14 @@ img {
 }
 
 .divider-custom-line {
-
     background-color: white;
     height: 2px;
     border-radius: 25%;
+    margin-top: 16px;
 }
 
 .divider-custom-icon svg{
-    padding-top: 20px;
+    
     height:37px;
 }
 
