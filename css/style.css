@@ -25,7 +25,11 @@ img {
 }
 
 .mt-025{
-    margin-top: 24%;
+    margin-top: 25%;
+}
+
+.mt-010{
+    margin-top: 20%;
 }
 
 .mt-8{
@@ -45,6 +49,11 @@ img {
 .navbar-default {
     border-color: #2c3e50;
     height: 70px;
+}
+
+.navbar-toggle {
+    margin-top: 14px;
+    margin: bottom 14px;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
@@ -72,7 +81,7 @@ img {
 }
 
 .navbar-brand {
-    font-size: 2.25rem;
+    font-size: 1.90rem;
     line-height: 35px;
     font-weight: 600;
 }
@@ -103,6 +112,10 @@ img {
     color: #212529;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
+}
+
+.btn-text{
+    font-size: 2rem;
 }
 
 .svg-inline--fa {
@@ -149,40 +162,52 @@ img {
     line-height: 1;
     position: absolute;
     right: 50%;
-    bottom: 0;
+    bottom: 0%;
     transform: translate(50%,0);
     visibility: hidden;
-    transition: bottom 1s;
+    transition: bottom .3s, visibility .3s;    
 }
- 
+
+ .MdG-portfolio:hover .material-icons {
+    bottom: 50%;
+    transform: translate(50%,50%);
+    visibility:visible;    
+}
+
   .MdG-portfolio .MdG-img {
-    background-color: rgba(0, 128, 0, .5);
     position: absolute;
-    color: #f1f1f1;
-    width: 93%;
-    opacity: 0;
+    background-color: rgba(0, 128, 0, .5);
     color: white;
     font-size: 20px;
     text-align: center;
-    height: 297px;
+    width: 93%;
+    height: 93%;
+    opacity: 0;
     right: 15px;
     bottom:20px;
-    border-radius: 20px;   
-    transition: 1s; 
-}
-
-.MdG-portfolio:hover .material-icons {
-    bottom: 50%;
-    transform: translate(50%,50%);
-    visibility:visible; 
-    transition: bottom 1s; 
+    border-radius: 20px;  
+    transition: opacity .3s;  
 }
 
 .MdG-portfolio:hover .MdG-img{
     opacity: 1;
-    padding-bottom:20px;
-  }
+    
+}
 
+.MdG-portfolio .MdG-img {
+    position: absolute;
+    background-color: rgba(0, 128, 0, .5);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    opacity: 0;
+    right: 15px;
+    bottom:20px;
+    border-radius: 20px;  
+    transition: opacity .3s;  
+}
 
 /*form contact*/
 
@@ -247,7 +272,38 @@ footer .btn {
 
 /*responsive */
 
-@media screen and (min-width: 992px) {    
+@media all and (min-width:576px){
+    .navbar-brand{
+        font-size: 2.25rem;
+    }
+
+    .MdG-portfolio .MdG-img {
+        
+        width: 96%;
+        height: 96%;
+         
+    }
+    
+
+}
+
+@media all and (min-width: 768px) {
+    .MdG-portfolio .MdG-img {
+        
+        width: 93%;
+        height: 93%;
+        
+    }
+}
+
+
+
+
+@media all and (min-width: 992px) {   
+    
+    .mt-010{
+        margin-top: 10%;
+    }
     
     .navbar-default {
         height: 100px;
@@ -271,6 +327,13 @@ footer .btn {
         line-height: 1.5;
         color: #212529;
         text-align: left;
+    }
+
+    .MdG-portfolio .MdG-img {
+        
+        width: 94%;
+        height: 94%;
+        
     }
     
   }
