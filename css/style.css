@@ -140,6 +140,50 @@ img {
 
 /*F divider */
 
+.MdG-portfolio{
+    position: relative;
+}
+
+.MdG-portfolio .material-icons {
+    font-size: 100px;
+    line-height: 1;
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    transform: translate(50%,0);
+    visibility: hidden;
+    transition: bottom 1s;
+}
+ 
+  .MdG-portfolio .MdG-img {
+    background-color: rgba(0, 128, 0, .5);
+    position: absolute;
+    color: #f1f1f1;
+    width: 93%;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 297px;
+    right: 15px;
+    bottom:20px;
+    border-radius: 20px;   
+    transition: 1s; 
+}
+
+.MdG-portfolio:hover .material-icons {
+    bottom: 50%;
+    transform: translate(50%,50%);
+    visibility:visible; 
+    transition: bottom 1s; 
+}
+
+.MdG-portfolio:hover .MdG-img{
+    opacity: 1;
+    padding-bottom:20px;
+  }
+
+
 /*form contact*/
 
 .floating-label-form-group {
