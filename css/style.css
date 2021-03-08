@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 img {
     max-width:100%;
@@ -180,7 +182,7 @@ img {
     color: white;
     font-size: 20px;
     text-align: center;
-    width: 93%;
+    width: 92%;
     height: 93%;
     opacity: 0;
     right: 15px;
@@ -192,21 +194,6 @@ img {
 .MdG-portfolio:hover .MdG-img{
     opacity: 1;
     
-}
-
-.MdG-portfolio .MdG-img {
-    position: absolute;
-    background-color: rgba(0, 128, 0, .5);
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    width: 90%;
-    height: 90%;
-    opacity: 0;
-    right: 15px;
-    bottom:20px;
-    border-radius: 20px;  
-    transition: opacity .3s;  
 }
 
 /*form contact*/
