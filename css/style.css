@@ -176,14 +176,21 @@ img {
     visibility:visible;    
 }
 
+.MdG-portfolio .box{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
   .MdG-portfolio .MdG-img {
+    overflow: hidden;
     position: absolute;
     background-color: rgba(0, 128, 0, .5);
     color: white;
     font-size: 20px;
     text-align: center;
-    width: 92%;
-    height: 93%;
+    width: 100%;
+    height: 100%;
     opacity: 0;
     right: 15px;
     bottom:20px;
